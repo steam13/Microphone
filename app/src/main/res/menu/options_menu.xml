@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/info" android:enabled="true" android:id="@+id/information_menu_item" android:checked="false" android:visible="true" android:menuCategory="container" android:title="@string/Information" android:checkable="false" />
+    <item android:icon="@drawable/dragonmic_setting" android:enabled="true" android:id="@+id/settings_menu_item" android:checked="false" android:visible="true" android:menuCategory="container" android:title="@string/settings_menu" android:checkable="false" />
+</menu>

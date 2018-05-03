@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/editProfile_menu_item" android:checked="false" android:title="@string/Edit" android:checkable="false" />
+    <item android:id="@+id/deleteProfile_menu_item" android:checked="false" android:title="@string/Delete" android:checkable="true" />
+</menu>

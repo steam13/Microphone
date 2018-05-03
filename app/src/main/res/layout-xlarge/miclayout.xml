@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@drawable/dragonmicbg_mesh" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/imageView1" android:background="@drawable/dividerbar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="110.0dip" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+    <RelativeLayout android:id="@id/relativeLayout1" android:background="@drawable/box" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="wrap_content" android:layout_height="100.0dip" android:layout_marginLeft="10.0dip" android:layout_marginTop="25.0dip" android:layout_marginRight="10.0dip" android:layout_below="@id/imageView1" android:layout_centerHorizontal="true">
+        <nuance.com.NuanceTextView android:textSize="16.0pt" android:textColor="@color/Color_Text" android:gravity="center" android:id="@id/textViewMicuser" android:paddingLeft="15.0dip" android:paddingRight="15.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/Select_Menu_to_begin" android:singleLine="true" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <ImageView android:id="@id/imageView2" android:background="@drawable/dividerbar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="25.0dip" android:layout_below="@id/relativeLayout1" android:layout_alignParentLeft="true" />
+    <RelativeLayout android:id="@id/relativeLayout2" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/imageView2" android:layout_centerHorizontal="true">
+        <RelativeLayout android:id="@id/relativeLayout3" android:background="@drawable/buttonrecess" android:layout_width="270.0dip" android:layout_height="270.0dip" android:layout_centerHorizontal="true" android:layout_centerVertical="true">
+            <nuance.com.NuanceMicButton android:id="@id/imageButtonMic" android:background="@drawable/mic_button" android:layout_width="270.0dip" android:layout_height="270.0dip" android:layout_marginTop="15.0dip" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/splashLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/Black"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="15.0dip"
+        android:layout_marginRight="15.0dip"
+        android:layout_marginTop="10.0dip"
+        android:gravity="center_horizontal"
+        android:text="@string/first_splash_title_one"
+        android:textColor="@color/White"
+        android:textSize="14.0sp" />
+
+    <TextView
+        android:id="@id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="15.0dip"
+        android:layout_marginRight="15.0dip"
+        android:gravity="center_horizontal"
+        android:text="@string/first_splash_title_two"
+        android:textColor="@color/White"
+        android:textSize="14.0sp" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1.0" />
+
+    <ImageView
+        android:id="@id/Logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="-25.0dip"
+        android:layout_marginTop="-20.0dip"
+        android:background="@drawable/m_dragonmic_logo" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1.0" />
+
+    <Button
+        android:id="@id/btnAboutDragonSpeech"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="10.0dip"
+        android:background="@drawable/button_background"
+        android:paddingLeft="20.0dip"
+        android:paddingRight="20.0dip"
+        android:text="@string/about_dragon_speech_recognition"
+        android:textColor="@color/Green"
+        android:textSize="14.0sp" />
+
+    <Button
+        android:id="@id/btnAboutDragonRemoteMic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10.0dip"
+        android:background="@drawable/button_background"
+        android:paddingLeft="20.0dip"
+        android:paddingRight="20.0dip"
+        android:text="@string/about_dragon_remote_microphone"
+        android:textColor="@color/Green"
+        android:textSize="14.0sp" />
+
+    <TextView
+        android:id="@id/copyright"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="10.0dip"
+        android:layout_marginTop="10.0dip"
+        android:text="@string/copyright"
+        android:textSize="14.0sp" />
+</LinearLayout>

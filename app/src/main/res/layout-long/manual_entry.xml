@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/Layout_Settings" android:background="@color/Color_Background" android:padding="10.0px" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/ComputerName_Row" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/TextView_ComputerName" android:layout_alignParentLeft="true">
+        <EditText android:id="@id/EditText_ComputerName" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/ip_address_sample" android:digits="0123456789." android:layout_weight="1.0" android:inputType="numberDecimal" />
+        <Spinner android:id="@id/Spinner" android:layout_width="fill_parent" android:layout_height="wrap_content" android:prompt="@string/dns_ip_choice_prompt" android:layout_weight="6.0" />
+    </LinearLayout>
+    <TextView android:textStyle="bold" android:textColor="@color/Color_Text" android:id="@id/TextView_ComputerName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ip_address" android:layout_below="@id/EditText_UserName" android:layout_alignLeft="@id/EditText_UserName" />
+    <TextView android:textStyle="bold" android:textColor="@color/Color_Text" android:id="@id/TextView_Port" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/port_address" android:layout_below="@id/ComputerName_Row" android:layout_alignLeft="@id/EditText_ComputerName" />
+    <EditText android:id="@id/EditText_Port" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/port_address_sample" android:layout_below="@id/TextView_Port" android:layout_alignLeft="@id/TextView_Port" android:inputType="number" />
+    <Button android:id="@id/QR_Button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="37.0dip" android:text="@string/use_barcode" android:layout_below="@id/EditText_Port" android:layout_centerHorizontal="true" />
+    <Button android:id="@id/buttonDone" android:layout_width="wrap_content" android:layout_height="40.0dip" android:text="@string/Done" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+    <TextView android:textStyle="bold" android:textColor="@color/Color_Text" android:id="@id/TextView_UserName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dragon_user_name" android:layout_below="@id/buttonDone" android:layout_alignLeft="@id/EditText_UserName" />
+    <Button android:id="@id/buttonCancel" android:layout_width="wrap_content" android:layout_height="40.0dip" android:text="@string/Cancel" android:layout_above="@id/TextView_UserName" android:layout_alignRight="@id/EditText_UserName" />
+    <EditText android:id="@id/EditText_UserName" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/dragon_user_name_sample" android:drawablePadding="1.0dip" android:layout_below="@id/TextView_UserName" android:layout_alignParentRight="true" android:inputType="text">
+        <requestFocus />
+    </EditText>
+</RelativeLayout>

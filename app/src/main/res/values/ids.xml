@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="auto_focus" />
+    <item type="id" name="decode" />
+    <item type="id" name="decode_failed" />
+    <item type="id" name="decode_succeeded" />
+    <item type="id" name="launch_product_query" />
+    <item type="id" name="quit" />
+    <item type="id" name="restart_preview" />
+    <item type="id" name="return_scan_result" />
+    <item type="id" name="search_book_contents_failed" />
+    <item type="id" name="search_book_contents_succeeded" />
+    <item type="id" name="infowebView">false</item>
+    <item type="id" name="relativeLayout1">false</item>
+    <item type="id" name="textView1">false</item>
+    <item type="id" name="preview_view">false</item>
+    <item type="id" name="viewfinder_view">false</item>
+    <item type="id" name="status_view">false</item>
+    <item type="id" name="dialog_title">false</item>
+    <item type="id" name="splashLayout">false</item>
+    <item type="id" name="textView2">false</item>
+    <item type="id" name="Logo">false</item>
+    <item type="id" name="btnAboutDragonSpeech">false</item>
+    <item type="id" name="btnAboutDragonRemoteMic">false</item>
+    <item type="id" name="copyright">false</item>
+    <item type="id" name="internal_error_layout_root">false</item>
+    <item type="id" name="buttonTryAgain">false</item>
+    <item type="id" name="buttonEditComputerInfo">false</item>
+    <item type="id" name="buttonCancel">false</item>
+    <item type="id" name="Layout_Settings">false</item>
+    <item type="id" name="EditText_UserName">false</item>
+    <item type="id" name="TextView_UserName">false</item>
+    <item type="id" name="ComputerName_Row">false</item>
+    <item type="id" name="TextView_ComputerName">false</item>
+    <item type="id" name="EditText_ComputerName">false</item>
+    <item type="id" name="Spinner">false</item>
+    <item type="id" name="TextView_Port">false</item>
+    <item type="id" name="EditText_Port">false</item>
+    <item type="id" name="buttonDone">false</item>
+    <item type="id" name="QR_Button">false</item>
+    <item type="id" name="Layout_Mic">false</item>
+    <item type="id" name="TextView_MicUser">false</item>
+    <item type="id" name="MicImageButton">false</item>
+    <item type="id" name="imageView1">false</item>
+    <item type="id" name="textViewMicuser">false</item>
+    <item type="id" name="imageView2">false</item>
+    <item type="id" name="relativeLayout2">false</item>
+    <item type="id" name="relativeLayout3">false</item>
+    <item type="id" name="imageButtonMic">false</item>
+    <item type="id" name="no_selection_layout_root">false</item>
+    <item type="id" name="buttonEnterSettings">false</item>
+    <item type="id" name="buttonEnterInfoManually">false</item>
+    <item type="id" name="checkBox1">false</item>
+    <item type="id" name="profiletextView">false</item>
+    <item type="id" name="computertextView">false</item>
+    <item type="id" name="chevronimageView">false</item>
+    <item type="id" name="textView3">false</item>
+    <item type="id" name="manualEntry">false</item>
+    <item type="id" name="manualEntryLabel">false</item>
+    <item type="id" name="profilelistView">false</item>
+    <item type="id" name="settings_menu_item">false</item>
+    <item type="id" name="information_menu_item">false</item>
+    <item type="id" name="editProfile_menu_item">false</item>
+    <item type="id" name="deleteProfile_menu_item">false</item>
+</resources>

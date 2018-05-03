@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/nuance.com">
+    <item android:drawable="@drawable/dragonmic_dbutton_mic_off_dk" app:state_OFF="true" app:state_PRESSED="true" />
+    <item android:drawable="@drawable/dragonmic_dbutton_mic_off_2x" app:state_OFF="true" app:state_PRESSED="false" />
+    <item android:drawable="@drawable/dragonmic_dbutton_mic_off_dk" app:state_DISCONNECTED="true" app:state_PRESSED="true" />
+    <item android:drawable="@drawable/dragonmic_dbutton_mic_off_2x" app:state_DISCONNECTED="true" app:state_PRESSED="false" />
+    <item android:drawable="@drawable/dragonmic_dbutton_mic_off_dk" app:state_PAUSE="true" app:state_PRESSED="true" />
+    <item android:drawable="@drawable/dragonmic_dbutton_mic_off_2x" app:state_PAUSE="true" app:state_PRESSED="false" />
+    <item android:drawable="@drawable/dragonmic_dbutton_mic_on_dk" app:state_ON="true" app:state_PRESSED="true" />
+    <item android:drawable="@drawable/dragonmic_dbutton_mic_on_2x" app:state_ON="true" app:state_PRESSED="false" />
+    <item android:drawable="@drawable/dragonmic_dbutton_mic_sleep_dk" app:state_SLEEPING="true" app:state_PRESSED="true" />
+    <item android:drawable="@drawable/dragonmic_dbutton_mic_sleep_2x" app:state_SLEEPING="true" app:state_PRESSED="false" />
+    <item android:drawable="@drawable/dragonmic_dbutton_mic_off_2x" app:state_QUIT="true" />
+</selector>

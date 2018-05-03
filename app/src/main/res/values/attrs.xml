@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="States">
+        <attr name="state_DISCONNECTED" format="boolean" />
+        <attr name="state_OFF" format="boolean" />
+        <attr name="state_PAUSE" format="boolean" />
+        <attr name="state_ON" format="boolean" />
+        <attr name="state_SLEEPING" format="boolean" />
+        <attr name="state_QUIT" format="boolean" />
+        <attr name="state_PRESSED" format="boolean" />
+    </declare-styleable>
+</resources>

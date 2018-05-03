@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/no_selection_layout_root" android:layout_width="300.0dip" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:textSize="15.0sp" android:textStyle="bold" android:id="@id/buttonEnterSettings" android:layout_width="250.0dip" android:layout_height="wrap_content" android:layout_marginTop="32.0dip" android:text="@string/Enter_Settings" android:layout_below="@id/textView1" android:layout_centerHorizontal="true" />
+    <Button android:textSize="15.0sp" android:textStyle="bold" android:id="@id/buttonEnterInfoManually" android:layout_width="250.0dip" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/Enter_information_manually" android:layout_below="@id/buttonEnterSettings" android:layout_alignLeft="@id/buttonEnterSettings" />
+    <Button android:textSize="15.0sp" android:textStyle="bold" android:id="@id/buttonCancel" android:layout_width="250.0dip" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/Cancel" android:layout_below="@id/buttonEnterInfoManually" android:layout_centerHorizontal="true" />
+</RelativeLayout>

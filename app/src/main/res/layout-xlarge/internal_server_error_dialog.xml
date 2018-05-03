@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/internal_error_layout_root" android:layout_width="300.0dip" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?android:textAppearanceMedium" android:gravity="center_horizontal" android:id="@id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/Connection_Failed_No_Server" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+    <Button android:textSize="15.0sp" android:textStyle="bold" android:id="@id/buttonTryAgain" android:layout_width="250.0dip" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/Try_again" android:layout_below="@id/textView1" android:layout_centerHorizontal="true" />
+    <Button android:textSize="15.0sp" android:textStyle="bold" android:id="@id/buttonEditComputerInfo" android:layout_width="250.0dip" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/Edit_computer_information" android:layout_below="@id/buttonTryAgain" android:layout_centerHorizontal="true" />
+    <Button android:textSize="15.0sp" android:textStyle="bold" android:id="@id/buttonCancel" android:layout_width="250.0dip" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/Cancel" android:layout_below="@id/buttonEditComputerInfo" android:layout_centerHorizontal="true" />
+</RelativeLayout>

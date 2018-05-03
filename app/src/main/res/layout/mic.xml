@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/Layout_Mic"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/dragonmic_background_2x"
+    android:orientation="vertical">
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1.0" />
+
+    <TextView
+        android:id="@id/TextView_MicUser"
+        android:layout_width="wrap_content"
+        android:layout_height="35.0dip"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="10.0dip"
+        android:text="@string/Select_Menu_to_begin"
+        android:textColor="@color/Color_Text"
+        android:textSize="9.0pt"
+        android:visibility="visible" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1.0" />
+
+    <ImageButton
+        android:id="@id/MicImageButton"
+        android:layout_width="108.0dip"
+        android:layout_height="108.0dip"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="5.0dip"
+        android:background="@drawable/dragonmic_dbutton_mic_off_2x" />
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.0" />
+</LinearLayout>

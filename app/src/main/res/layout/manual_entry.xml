@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/Layout_Settings"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    android:padding="10.0px">
+
+    <EditText
+        android:id="@id/EditText_UserName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/TextView_UserName"
+        android:drawablePadding="1.0dip"
+        android:hint="@string/dragon_user_name_sample"
+        android:inputType="text" />
+
+    <LinearLayout
+        android:id="@id/ComputerName_Row"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/TextView_ComputerName"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@id/EditText_ComputerName"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:digits="0123456789."
+            android:hint="@string/ip_address_sample"
+            android:inputType="numberDecimal" />
+
+        <Spinner
+            android:id="@id/Spinner"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="6.0"
+            android:prompt="@string/dns_ip_choice_prompt" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@id/TextView_ComputerName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/EditText_UserName"
+        android:layout_below="@id/EditText_UserName"
+        android:text="@string/ip_address"
+        android:textColor="@color/Color_Text"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@id/TextView_Port"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ComputerName_Row"
+        android:text="@string/port_address"
+        android:textColor="@color/Color_Text"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@id/EditText_Port"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/TextView_Port"
+        android:layout_below="@id/TextView_Port"
+        android:hint="@string/port_address_sample"
+        android:inputType="number" />
+
+    <Button
+        android:id="@id/buttonDone"
+        android:layout_width="wrap_content"
+        android:layout_height="40.0dip"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/Done" />
+
+    <TextView
+        android:id="@id/TextView_UserName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/EditText_UserName"
+        android:layout_below="@id/buttonDone"
+        android:text="@string/dragon_user_name"
+        android:textColor="@color/Color_Text"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@id/buttonCancel"
+        android:layout_width="wrap_content"
+        android:layout_height="40.0dip"
+        android:layout_above="@id/TextView_UserName"
+        android:layout_alignRight="@id/EditText_UserName"
+        android:text="@string/Cancel" />
+
+    <Button
+        android:id="@id/QR_Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/EditText_Port"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22.0dip"
+        android:text="@string/use_barcode" />
+</RelativeLayout>
